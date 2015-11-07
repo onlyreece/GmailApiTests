@@ -13,6 +13,9 @@ using System.Threading.Tasks;
 
 namespace GmailQuickstart
 {
+    /// <summary>
+    /// Test Console app to connect to Google Gmail API and list labels from user account.
+    /// </summary>
     class Program
     {
         static string[] Scopes = { GmailService.Scope.GmailReadonly };
